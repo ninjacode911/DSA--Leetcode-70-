@@ -7,5 +7,9 @@ class Solution:
             diff=target-val
             if diff in hashmap:
                 return [indx,hashmap[diff]]
-            hashmap[val]=indx
+            hashmap[val]=indx #we use this to put it in the hashmap so for any further look ups
+
+
+
+
 
